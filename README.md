@@ -2,7 +2,6 @@
     #cadastro de produtos
 
 import pyautogui
-import time
 import pandas as pd
 
 pyautogui.PAUSE = 1
@@ -13,9 +12,9 @@ loja = ("https://dlp.hashtagtreinamentos.com/python/intensivao/login")
 pyautogui.write(loja)
 pyautogui.press("enter")
 pyautogui.click(x=425, y=397)
-pyautogui.write("carol")
+pyautogui.write("ambiel")
 pyautogui.press("tab")
-pyautogui.write("raposa10")
+pyautogui.write("password")
 pyautogui.press("tab")
 pyautogui.press("enter")
 
